@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "to validate the login functionality with invalid credentials",
+        "description": "",
+        "id": "to-validate-the-login-function;to-validate-the-login-functionality-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4184835400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user should be in facebook login page",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_in_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 470378700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user has to fill the username and password detail",
+            "match": {
+              "location": "LoginSteps.the_user_has_to_fill_the_username_and_password_detail(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "agilan05@gmail.com",
+                  "785496321"
+                ]
+              },
+              {
+                "cells": [
+                  "surya045@gmail.com",
+                  "124578963"
+                ]
+              },
+              {
+                "cells": [
+                  "kadhir44@gmail.com",
+                  "124578977"
+                ]
+              },
+              {
+                "cells": [
+                  "naveen77@gmail.com",
+                  "124578978"
+                ]
+              },
+              {
+                "cells": [
+                  "santhana47859@gmail.com",
+                  "12457789963"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155090500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user has to click login button",
+            "match": {
+              "location": "LoginSteps.the_user_has_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8970611900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user should navigate to invalid login page",
+            "match": {
+              "location": "LoginSteps.the_user_should_navigate_to_invalid_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login function",
+    "description": "",
+    "id": "to-validate-the-login-function",
+    "keyword": "Feature",
+    "uri": "src/test/resources/LoginFeature/Login.feature",
+    "tags": []
+  }
+]
